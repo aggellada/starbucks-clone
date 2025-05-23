@@ -1,32 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { motion } from "framer-motion";
-
-const image_links = [
-  "https://picsum.photos/id/1/200/300",
-  "https://picsum.photos/id/2/200/300",
-  "https://picsum.photos/id/3/200/300",
-  "https://picsum.photos/id/4/200/300",
-  "https://picsum.photos/id/5/200/300",
-  "https://picsum.photos/id/6/200/300",
-  "https://picsum.photos/id/5/200/300",
-  "https://picsum.photos/id/6/200/300",
-  "https://picsum.photos/id/6/200/300",
-  "https://picsum.photos/id/6/200/300",
-];
-
 export default function GiftPage() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const clickRight = () => {
-    setCurrentIndex((prev) => (prev === 3 ? prev : prev + 1));
-  };
-
-  const clickLeft = () => {
-    setCurrentIndex((prev) => (prev === 0 ? 0 : prev - 1));
-  };
-
   return (
     <>
       <div className="w-full h-[160px] bg-green-200 px-4 flex flex-col justify-center gap-1 md:pl-24 md:pr-12 md:gap-8">
