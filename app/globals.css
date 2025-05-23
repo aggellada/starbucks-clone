@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.sb-green {
+  background-color: #006242;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.rewards-background {
+  background-image: url(https://stories.starbucks.com/uploads/sites/9/2020/09/Star-Days-1440x700.jpg);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.outerbox-bg {
+  background-image: url(https://www.starbucks.com/app-assets/844262945b2a8b8cfb29.png);
 }
